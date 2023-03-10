@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> My Portfolio Website </title>
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" src="main.css"> -->
+</head>
+<body>
+
+<!-- Page Loader Start -->
+<div class="page-loader">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<!-- Page Loader End   -->
+
+<!-- Overlay Start -->
+<div class="overlay"></div>
+<!-- Overlay End -->
+
+<!-- Main Start -->
+<div class="main hidden">
+  <!-- Header Start-->
+  <header class="header">
+    <div class="container">
+      <div class="row flex-end">
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul>
+              <li><a href="#home" class="nav-item link-item">home</a></li>
+              <li><a href="#about" class="nav-item link-item">about</a></li>
+              <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+              <li><a href="#contact" class="nav-item link-item">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Header End-->
+
+  <!-- HGome Section Start  -->
+  <section class="home-section align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="home-text">
+          <p>Hey there! I'm</p>
+          <h1>Palak</h1>
+          <h2>Frontend Developer | Competitive Progrmmer</h2>
+          <a href="#about" class="btn link-item">more about me</a>
+          <a href="#portfolio" class="btn link-item">Portfolio</a>
+        </div>
+        <div class="home-img">
+          <div class="img-box">
+            <img src="img\profile-img2.png" alt="profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home Section End -->
+
+  <!-- About Section Start -->
+  <section class="about-section sec-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-img">
+          <div class="img-box">
+            <img src="img/profile-img1.jpg" alt="about img" class="img">
+          </div>
+        </div>
+        <div class="about-text">
+          <p>I am in my pre-final year currently pursuing Bachelor’s in Technology 
+            majoring Computer Science. I am a web development enthusiast. I was 
+            inspired to become a frontend developer when I read an article about a 
+            woman from Lebanon, who pursued her goals. I resonated with her, and 
+            wish to consistently work to reach my goals. I am also currently 
+            developing my Competitive Programming (CP) Skills and learning Data 
+            Structures & Algorithms (DSA) side-by-side majorly using C++. I am also 
+            indulged in Machine Learning and Cryptography, hence have 
+            knowledge of Python as well.
+            <br><br>
+            I have keen interest in Financial Technology as well and am currently 
+            working on the idea of developing a common ground where multiple 
+            bank accounts of oneself and family members, can be handled at a 
+            single place only. It shall also help in expense management and enable 
+            to take financially intelligent decisions by analyzing and displaying 
+            expense patterns.
+            <br><br>
+            I have good communication skills, and hold leadership qualities as well. I
+            am a self-motivated person and believe in working hard. I know my 
+            competency and know how to adapt to new environment quickly and 
+            combat any challenge thrown at me with wit and confidence.</p>
+          <h3>Skills</h3>
+          <div class="skills">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">Javascript</div>
+            <div class="skill-item">Bootstrap</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Node.js</div>
+            <div class="skill-item">MongoDB</div>  
+            <div class="skill-item">MySQL</div>  
+            <div class="skill-item">PHP</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">C++</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">Java</div>
+          </div>
+          
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#education">education</button>
+            <button type="button" class="tab-item" data-target="#experience">experience</button>
+          </div>
+
+          <!-- Education Start -->
+          <div class="tab-content active" id="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                  <span class="date">2020-2024</span>
+                  <h4>bachelor of technology - <span>PDEU</span></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ad quidem, voluptatem quas nemo odio.</p>
+                </div>
+              <div class="timeline-item">
+                <span class="date">2018-2020</span>
+                <h4><span>Scholar English Academy</span></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ad quidem, voluptatem quas nemo odio.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2016-2018</span>
+                <h4><span>L.P. Savani Academy</span></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ad quidem, voluptatem quas nemo odio.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Education End -->
+
+          <!-- Experience Start -->
+          <div class="tab-content" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">2020-2024</span>
+                <h4>Web Developer - <span>the webshala</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus magni fugit expedita blanditiis voluptate dolores.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2020-2024</span>
+                <h4>Web Developer - <span>the webshala</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus magni fugit expedita blanditiis voluptate dolores.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Experience End -->
+          <a href="cv.pdf" target="_blank" class="btn link-item" download="My Document">download CV</a>
+          <a href="#contact" class="btn link-item">contact me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End-->
+
+  <!-- Portfolio Section Start -->
+  <section class="portfolio-section sec-padding" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>recent work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/todolist.png" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">To-do List App</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Developed a to do list app with each list containing multiple tasks. We can add new tasks as well as
+              delete them.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <!-- <li>Created - <span>4 Dec 2020</span></li> -->
+                <li>technologies used- <span>Html, Css,Javascript</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View On GitHub <span><a href="#" target="_blank">https://github.com/Palakkk/to-do-list</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!--Portfolio Item Start 
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/2.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Music App Clone Full-Stack</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Developing a web-based Music App using HTML,CSS,JS and PHP. A responsive app which has feature
+                of creating one’s own account. Albums separated based on artists and genres. Also providing feature of
+                creating personalised playlists.
+                </p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technologies used- <span>HTML,CSS,JS, PHP</span></li>
+                <li>View Online <span><a href="#" target="_blank">www.domain.co</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/snakegame.png" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Snake Game</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Developed the classic game of Snake with different functionalities like, growing and increasing speed with
+                eating, different levels with walls and no walls,etc.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <!-- <li>Created - <span>4 Dec 2020</span></li> -->
+                <li>technologies used- <span>Html, Css, JS</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online <span><a href="#" target="_blank">https://github.com/Palakkk/snake-game</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/pra.png" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Informational website on Page Replacement Algorithms</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Created a website from scratch , tested and debugged , and deployed</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <!-- <li>Created - <span>4 Dec 2020</span></li> -->
+                <li>technologies used- <span>Html, Css, Javascript</span></li>
+                <!-- <li>Role - <span>Frontend</span></li> -->
+                <li>View Online <span><a href="#" target="_blank">https://github.com/Palakkk/OSLab</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact-section sec-padding" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>contact me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-form">
+        <form method=POST action="send" id="contact-form" enctype="multipart/form-data">
+          <div class="row">
+            <div class="input-group">
+              <input type="text" id="Name" placeholder="Name" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <input type="email" id="Email" placeholder="Email" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <input type="text" id="Subject" placeholder="Subject" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <textarea id="Message" placeholder="Message" class="input-control" required></textarea>
+            </div>
+            <div class="submit-btn">
+              <button class="btn" type="submit" value="submit">send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <h3>Email</h3>
+          <p>example@gmail.com</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>Phone</h3>
+          <p>91 98*** *****</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>follow me</h3>
+          <div class="social-links">
+            <!-- <a href="#" target="_blank"><i class="fab fa-facebook"></i></a> -->
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_pllkkk_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- <a href="#" target="_blank"><i class="fab fa-youtube"></i></a> -->
+            <a href="#" target="_blank"><i class="fab fa-reddit"></i></a>
+            <!-- <a href="#" target="_blank"><i class="fab fa-dribble"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Section End -->
+
+</div>
+<!-- Main End -->
+
+<!-- Portfolio Item Details Popup Start-->
+<div class="portfolio-popup">
+  <div class="pp-inner">
+    <div class="pp-content">
+      <div class="pp-header">
+        <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+        <div class="pp-thumbnail">
+          <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+        </div>
+        <h3></h3>
+      </div>
+      <div class="pp-body">   
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Item Details Popup End-->
+  
+<script src="js/script.js"></script>
+</body>
+</html>
+
